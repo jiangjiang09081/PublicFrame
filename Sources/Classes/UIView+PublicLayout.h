@@ -9,6 +9,8 @@
 #import <UIKit/UIKit.h>
 #import "JHAdaptor.h"
 NS_ASSUME_NONNULL_BEGIN
+#define kAdaptor(length) [JHAdaptor adaptLength:(length)]
+
 #define KAdaptorFontSize(size) [JHAdaptor adaptFontSize:(size)]
 
 #define KFontSize(size)  [UIFont systemFontOfSize:KAdaptorFontSize(size)]
