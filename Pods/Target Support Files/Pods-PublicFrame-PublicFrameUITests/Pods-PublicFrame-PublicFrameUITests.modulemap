@@ -1,0 +1,6 @@
+framework module Pods_PublicFrame_PublicFrameUITests {
+  umbrella header "Pods-PublicFrame-PublicFrameUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
